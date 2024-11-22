@@ -1,0 +1,54 @@
+{
+  "teams": [
+    {
+      "name": "Red Bull Racing",
+      "logo": "images/redbull_logo.avif",
+      "drivers": ["Max Verstappen", "Sergio Pérez"]
+    },
+    {
+      "name": "Mercedes",
+      "logo": "images/mercedes_logo.avif",
+      "drivers": ["Lewis Hamilton", "George Russell"]
+    },
+    {
+      "name": "Ferrari",
+      "logo": "images/ferrari_logo.avif",
+      "drivers": ["Charles Leclerc", "Carlos Sainz"]
+    },
+    {
+      "name": "McLaren",
+      "logo": "images/mclaren_logo.avif",
+      "drivers": ["Lando Norris", "Oscar Piastri"]
+    },
+    {
+      "name": "Aston Martin",
+      "logo": "images/astonmartin_logo.avif",
+      "drivers": ["Fernando Alonso", "Lance Stroll"]
+    },
+    {
+      "name": "Alpine",
+      "logo": "images/alpine_logo.avif",
+      "drivers": ["Esteban Ocon", "Pierre Gasly"]
+    },
+    {
+      "name": "Williams",
+      "logo": "images/williams_logo.avif",
+      "drivers": ["Alexander Albon", "Logan Sargeant"]
+    },
+    {
+      "name": "RB",
+      "logo": "images/rb_logo.avif",
+      "drivers": ["Daniel Ricciardo", "Yuki Tsunoda"]
+    },
+    {
+      "name": "Stake F1 Team",
+      "logo": "images/stake_logo.avif",
+      "drivers": ["Valtteri Bottas", "Zhou Guanyu"]
+    },
+    {
+      "name": "Haas F1 Team",
+      "logo": "images/haas_logo.avif",
+      "drivers": ["Nico Hulkenberg", "Kevin Magnussen"]
+    }
+  ]
+}

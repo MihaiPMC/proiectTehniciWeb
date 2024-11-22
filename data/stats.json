@@ -1,0 +1,24 @@
+{
+  "drivers": [
+    { "name": "Max Verstappen",   "team": "Red Bull Racing",     "points": 393 },
+    { "name": "Sergio Pérez",     "team": "Red Bull Racing",     "points": 151 },
+    { "name": "Lewis Hamilton",   "team": "Mercedes",            "points": 190 },
+    { "name": "George Russell",   "team": "Mercedes",            "points": 192 },
+    { "name": "Carlos Sainz",     "team": "Ferrari",             "points": 244 },
+    { "name": "Charles Leclerc",  "team": "Ferrari",             "points": 307 },
+    { "name": "Lando Norris",     "team": "McLaren",             "points": 331 },
+    { "name": "Oscar Piastri",    "team": "McLaren",             "points": 262  },
+    { "name": "Pierre Gasly",     "team": "Alpine",              "points": 26  },
+    { "name": "Esteban Ocon",     "team": "Alpine",              "points": 23  },
+    { "name": "Lance Stroll",     "team": "Aston Martin",        "points": 24  },
+    { "name": "Fernando Alonso",  "team": "Aston Martin",        "points": 62 },
+    { "name": "Nico Hülkenberg",  "team": "Haas F1 Team",        "points": 31   },
+    { "name": "Kevin Magnussen",  "team": "Haas F1 Team",        "points": 14   },
+    { "name": "Valtteri Bottas",  "team": "Alfa Romeo",          "points": 0  },
+    { "name": "Zhou Guanyu",      "team": "Alfa Romeo",          "points": 0   },
+    { "name": "Yuki Tsunoda",     "team": "AlphaTauri",          "points": 28   },
+    { "name": "Liam Lawson",      "team": "AlphaTauri",          "points": 4   },
+    { "name": "Logan Sargeant",   "team": "Williams",            "points": 0   },
+    { "name": "Alexander Albon",  "team": "Williams",            "points": 12  }
+  ]
+}

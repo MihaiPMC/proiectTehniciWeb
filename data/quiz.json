@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "text": "Which F1 driver has won the most races in a single season?",
+      "choices": ["Sebastian Vettel", "Michael Schumacher", "Lewis Hamilton", "Max Verstappen"],
+      "correct": 3
+    },
+    {
+      "text": "What is the fastest lap ever recorded in F1 history?",
+      "choices": ["1:18.887", "1:19.119", "1:17.765", "1:16.982"],
+      "correct": 1
+    },
+    {
+      "text": "Which team has won the most Constructors' Championships in F1 history?",
+      "choices": ["McLaren", "Williams", "Ferrari", "Mercedes"],
+      "correct": 2
+    },
+    {
+      "text": "What is the youngest age at which a driver has won an F1 race?",
+      "choices": ["18 years", "19 years", "20 years", "21 years"],
+      "correct": 1
+    },
+    {
+      "text": "Which track is known as 'The Temple of Speed'?",
+      "choices": ["Silverstone", "Monza", "Spa-Francorchamps", "Red Bull Ring"],
+      "correct": 1
+    },
+    {
+      "text": "What color were Ferrari's cars originally?",
+      "choices": ["Red", "Yellow", "Blue", "Green"],
+      "correct": 0
+    },
+    {
+      "text": "Which driver has the nickname 'The Professor'?",
+      "choices": ["Niki Lauda", "Alain Prost", "Ayrton Senna", "Jackie Stewart"],
+      "correct": 1
+    },
+    {
+      "text": "What was the first season of the F1 World Championship?",
+      "choices": ["1946", "1948", "1950", "1952"],
+      "correct": 2
+    },
+    {
+      "text": "How many championship points are awarded for the fastest lap?",
+      "choices": ["0", "1", "2", "3"],
+      "correct": 1
+    },
+    {
+      "text": "Which circuit features the famous 'Eau Rouge' corner?",
+      "choices": ["Spa-Francorchamps", "Monaco", "Suzuka", "Silverstone"],
+      "correct": 0
+    },
+    {
+      "text": "What is the minimum weight of an F1 car (including driver) in 2024?",
+      "choices": ["798kg", "800kg", "805kg", "795kg"],
+      "correct": 1
+    },
+    {
+      "text": "Which team won their first F1 race in Hungary 2003?",
+      "choices": ["Toyota", "Renault", "Jaguar", "BMW"],
+      "correct": 1
+    },
+    {
+      "text": "What is the maximum fuel flow rate allowed in F1?",
+      "choices": ["100 kg/hr", "110 kg/hr", "95 kg/hr", "105 kg/hr"],
+      "correct": 0
+    },
+    {
+      "text": "Which driver has the most pole positions in F1 history?",
+      "choices": ["Michael Schumacher", "Ayrton Senna", "Lewis Hamilton", "Max Verstappen"],
+      "correct": 2
+    },
+    {
+      "text": "What is the current engine formula in F1?",
+      "choices": ["V8", "V6 Turbo Hybrid", "V10", "V12"],
+      "correct": 1
+    }
+  ]
+}

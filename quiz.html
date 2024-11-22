@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+    <script src="script/quiz.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img src="images/f1_logo.png" alt="F1 Logo" class="logo">
+      </a>
+      <nav>
+        <ul class="menu">
+          <li class="dropdown">
+            <a href="#">Explore</a>
+            <ul class="dropdown-menu">
+              <li><a href="teams.html">Teams & Drivers</a></li>
+              <li><a href="circuits.html">Circuits</a></li>
+            </ul>
+          </li>
+          <li><a href="stats.html">Stats</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="general-info">
+        <h1>F1 Quiz Challenge</h1>
+      </section>
+
+      <section class="quiz">
+        <div class="quiz-header">
+          <div id="score-container">
+            Current Score: <span id="score-display">0</span>
+          </div>
+        </div>
+        <div id="quiz-container">
+        </div>
+        <button id="next-question" class="btn" disabled>Next Question</button>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>© 2024 F1 Fan Hub - All rights reserved</p>
+    </footer>
+
+  </body>
+</html>

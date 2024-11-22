@@ -1,0 +1,234 @@
+{
+  "circuits": [
+    {
+      "name": "Bahrain International Circuit",
+      "country": "Bahrain",
+      "image": "images/bahrain.webp",
+      "latitude": 26.0325,
+      "longitude": 50.5106,
+      "length": "5.412 km",
+      "laps": 57,
+      "firstGP": 2004
+    },
+    {
+      "name": "Jeddah Corniche Circuit",
+      "country": "Saudi Arabia",
+      "image": "images/jeddah.webp",
+      "latitude": 21.6319,
+      "longitude": 39.1044,
+      "length": "6.174 km",
+      "laps": 50,
+      "firstGP": 2021
+    },
+    {
+      "name": "Albert Park Circuit",
+      "country": "Australia",
+      "image": "images/melbourne.webp",
+      "latitude": -37.8497,
+      "longitude": 144.9680,
+      "length": "5.278 km",
+      "laps": 58,
+      "firstGP": 1996
+    },
+    {
+      "name": "Suzuka Circuit",
+      "country": "Japan",
+      "image": "images/suzuka.webp",
+      "latitude": 34.8431,
+      "longitude": 136.5416,
+      "length": "5.807 km",
+      "laps": 53,
+      "firstGP": 1987
+    },
+    {
+      "name": "Shanghai International Circuit",
+      "country": "China",
+      "image": "images/shanghai.webp",
+      "latitude": 31.3389,
+      "longitude": 121.2205,
+      "length": "5.451 km",
+      "laps": 56,
+      "firstGP": 2004
+    },
+    {
+      "name": "Miami International Autodrome",
+      "country": "United States",
+      "image": "images/miami.webp",
+      "latitude": 25.9581,
+      "longitude": -80.2389,
+      "length": "5.412 km",
+      "laps": 57,
+      "firstGP": 2022
+    },
+    {
+      "name": "Imola Circuit",
+      "country": "Italy",
+      "image": "images/imola.webp",
+      "latitude": 44.3439,
+      "longitude": 11.7167,
+      "length": "4.909 km",
+      "laps": 63,
+      "firstGP": 1980
+    },
+    {
+      "name": "Monaco Circuit",
+      "country": "Monaco",
+      "image": "images/monaco.webp",
+      "latitude": 43.7347,
+      "longitude": 7.4206,
+      "length": "3.337 km",
+      "laps": 78,
+      "firstGP": 1950
+    },
+    {
+      "name": "Circuit Gilles Villeneuve",
+      "country": "Canada",
+      "image": "images/montreal.webp",
+      "latitude": 45.5017,
+      "longitude": -73.5227,
+      "length": "4.361 km",
+      "laps": 70,
+      "firstGP": 1978
+    },
+    {
+      "name": "Circuit de Barcelona-Catalunya",
+      "country": "Spain",
+      "image": "images/barcelona.webp",
+      "latitude": 41.5691,
+      "longitude": 2.2585,
+      "length": "4.675 km",
+      "laps": 66,
+      "firstGP": 1991
+    },
+    {
+      "name": "Red Bull Ring",
+      "country": "Austria",
+      "image": "images/spielberg.webp",
+      "latitude": 47.2197,
+      "longitude": 14.7647,
+      "length": "4.318 km",
+      "laps": 71,
+      "firstGP": 1970
+    },
+    {
+      "name": "Silverstone Circuit",
+      "country": "United Kingdom",
+      "image": "images/silverstone.webp",
+      "latitude": 52.0733,
+      "longitude": -1.0143,
+      "length": "5.891 km",
+      "laps": 52,
+      "firstGP": 1950
+    },
+    {
+      "name": "Hungaroring",
+      "country": "Hungary",
+      "image": "images/budapest.webp",
+      "latitude": 47.5830,
+      "longitude": 19.2506,
+      "length": "4.381 km",
+      "laps": 70,
+      "firstGP": 1986
+    },
+    {
+      "name": "Circuit de Spa-Francorchamps",
+      "country": "Belgium",
+      "image": "images/spa.webp",
+      "latitude": 50.4372,
+      "longitude": 5.9714,
+      "length": "7.004 km",
+      "laps": 44,
+      "firstGP": 1950
+    },
+    {
+      "name": "Circuit Zandvoort",
+      "country": "Netherlands",
+      "image": "images/zandvoort.webp",
+      "latitude": 52.3888,
+      "longitude": 4.5411,
+      "length": "4.259 km",
+      "laps": 72,
+      "firstGP": 1952
+    },
+    {
+      "name": "Monza Circuit",
+      "country": "Italy",
+      "image": "images/monza.webp",
+      "latitude": 45.6156,
+      "longitude": 9.2811,
+      "length": "5.793 km",
+      "laps": 53,
+      "firstGP": 1950
+    },
+    {
+      "name": "Baku City Circuit",
+      "country": "Azerbaijan",
+      "image": "images/azerbaijan.png",
+      "latitude": 40.3725,
+      "longitude": 49.8533,
+      "length": "6.003 km",
+      "laps": 51,
+      "firstGP": 2016
+    },
+    {
+      "name": "Marina Bay Street Circuit",
+      "country": "Singapore",
+      "image": "images/singapore.png",
+      "latitude": 1.2914,
+      "longitude": 103.8644,
+      "length": "5.063 km",
+      "laps": 61,
+      "firstGP": 2008
+    },
+    {
+      "name": "Circuit of the Americas",
+      "country": "United States",
+      "image": "images/cota.png",
+      "latitude": 30.1346,
+      "longitude": -97.6361,
+      "length": "5.513 km",
+      "laps": 56,
+      "firstGP": 2012
+    },
+    {
+      "name": "Autódromo Hermanos Rodríguez",
+      "country": "Mexico",
+      "image": "images/mexico.png",
+      "latitude": 19.4042,
+      "longitude": -99.0907,
+      "length": "4.304 km",
+      "laps": 71,
+      "firstGP": 1963
+    },
+    {
+      "name": "Interlagos Circuit",
+      "country": "Brazil",
+      "image": "images/interlagos.webp",
+      "latitude": -23.7036,
+      "longitude": -46.6997,
+      "length": "4.309 km",
+      "laps": 71,
+      "firstGP": 1973
+    },
+    {
+      "name": "Las Vegas Street Circuit",
+      "country": "United States",
+      "image": "images/vegas.png",
+      "latitude": 36.1699,
+      "longitude": -115.1398,
+      "length": "6.120 km",
+      "laps": 50,
+      "firstGP": 2023
+    },
+    {
+      "name": "Yas Marina Circuit",
+      "country": "UAE",
+      "image": "images/abudhabi.webp",
+      "latitude": 24.4672,
+      "longitude": 54.6031,
+      "length": "5.281 km",
+      "laps": 58,
+      "firstGP": 2009
+    }
+  ]
+}

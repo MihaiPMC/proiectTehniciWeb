@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Stats</title>
+    <link rel="stylesheet" href="styles/stats.css">
+    <script src="script/stats.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img src="images/f1_logo.png" alt="F1 Logo" class="logo">
+      </a>
+      <nav>
+        <ul class="menu">
+          <li class="dropdown">
+            <a href="#">Explore</a>
+            <ul class="dropdown-menu">
+              <li><a href="teams.html">Teams & Drivers</a></li>
+              <li><a href="circuits.html">Circuits</a></li>
+            </ul>
+          </li>
+          <li><a href="stats.html">Stats</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="general-info">
+        <h1>Formula 1 Statistics</h1>
+        <p>
+          Track the excitement of the 2024 Formula 1 season through
+          comprehensive statistics. From driver standings to team performance,
+          dive into the numbers that tell the story of this year's championship
+          battle. Stay up to date with points, rankings, and team achievements
+          throughout the season.
+        </p>
+      </section>
+
+      <section class="statistics">
+        <h2>Driver Standings</h2>
+        <table id="standings-table">
+          <thead>
+            <tr>
+              <th>Position</th>
+              <th>Driver</th>
+              <th>Team</th>
+              <th>Points</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="chart-section">
+        <h2>Points Distribution by Team</h2>
+        <canvas id="team-chart" width="800" height="600"></canvas>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2024 F1 Fan Hub - All rights reserved</p>
+    </footer>
+
+  </body>
+</html>
