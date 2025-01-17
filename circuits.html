@@ -5,27 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Circuits</title>
     <link rel="stylesheet" href="styles/circuits.css">
-
-    <script src="script/circuits.js"></script>
   </head>
   <body>
     <header>
-      <a href="index.html">
-        <img src="images/f1_logo.png" alt="F1 Logo" class="logo">
-      </a>
-      <nav>
-        <ul class="menu">
-          <li class="dropdown">
-            <a href="#">Explore</a>
-            <ul class="dropdown-menu">
-              <li><a href="teams.html">Teams & Drivers</a></li>
-              <li><a href="circuits.html">Circuits</a></li>
-            </ul>
-          </li>
-          <li><a href="stats.html">Stats</a></li>
-          <li><a href="quiz.html">Quiz</a></li>
-        </ul>
-      </nav>
+      <div class="header-content">
+        <a href="index.html">
+          <img src="images/f1_logo.png" alt="F1 Logo" class="logo">
+        </a>
+        <nav>
+          <ul class="menu">
+            <li class="dropdown">
+              <a href="#">Explore</a>
+              <ul class="dropdown-menu">
+                <li><a href="teams.html">Teams & Drivers</a></li>
+                <li><a href="circuits.html">Circuits</a></li>
+              </ul>
+            </li>
+            <li><a href="stats.html">Stats</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+          </ul>
+        </nav>
+      </div>
+      <a href="login.html" class="login-button">Login / Register</a>
     </header>
 
     <main>
@@ -47,9 +48,13 @@
       </section>
     </main>
 
+    
     <footer>
-      <p>© 2024 F1 Fan Hub - All rights reserved</p>
-    </footer>
-
+  <p>© <span id="current-year"></span> F1 Fan Hub - All rights reserved</p>
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+    <script src="script/circuits.js"></script>
+    <script src="script/index.js"></script>
   </body>
 </html>

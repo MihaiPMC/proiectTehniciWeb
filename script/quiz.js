@@ -2,10 +2,23 @@ document.addEventListener("DOMContentLoaded", () => {
   const quizContainer = document.getElementById("quiz-container");
   const nextButton = document.getElementById("next-question");
   const scoreDisplay = document.getElementById("score-display");
+  const highscoreDisplay = document.getElementById("highscore-display");
 
   let questions = [];
   let currentQuestionIndex = 0;
   let score = 0;
+  let currentUser = localStorage.getItem('currentUser');
+  
+  let highscores = JSON.parse(localStorage.getItem('quizHighscores')) || {};
+  updateHighscoreDisplay();
+
+  function updateHighscoreDisplay() {
+    if (currentUser && highscores[currentUser]) {
+      highscoreDisplay.textContent = highscores[currentUser];
+    } else {
+      highscoreDisplay.textContent = '0';
+    }
+  }
 
   fetch("data/quiz.json")
     .then((response) => response.json())
@@ -71,6 +84,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const message = percentage >= 70 ? "Great job!" : "Keep practicing!";
     const emoji = percentage >= 70 ? "🏆" : "💪";
     
+    if (currentUser) {
+      if (!highscores[currentUser] || score > highscores[currentUser]) {
+        highscores[currentUser] = score;
+        localStorage.setItem('quizHighscores', JSON.stringify(highscores));
+        updateHighscoreDisplay();
+      }
+    }
+
     quizContainer.innerHTML = `
         <div class="final-score-container">
             <h2 class="final-score-title">Quiz Complete! ${emoji}</h2>
@@ -79,6 +100,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 <span class="score-details">${score}/${questions.length}</span>
             </div>
             <p class="final-message">${message}</p>
+            ${currentUser && score > (highscores[currentUser] || 0) - score ? 
+              '<p class="new-highscore">New Highscore! 🎉</p>' : ''}
             <button onclick="location.reload()" class="retry-btn">Try Again</button>
         </div>
     `;

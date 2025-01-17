@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - F1 Fan Hub</title>
+    <link rel="stylesheet" href="styles/login.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="images/f1_logo.png" alt="F1 Logo" class="logo">
+        </a>
+    </header>
+
+    <main>
+        <div class="auth-container">
+            <form id="loginForm" class="auth-form">
+                <h2>Login</h2>
+                <div class="form-group">
+                    <label for="loginEmail">Email or Username</label>
+                    <input type="text" id="loginEmail" required>
+                    <div class="error" id="loginEmailError">Please enter your email or username</div>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" required>
+                    <div class="error" id="loginPasswordError">Password is required</div>
+                </div>
+                <button type="submit" class="submit-btn">Login</button>
+                <div class="toggle-form">
+                    <a href="#" id="showRegister">Don't have an account? Register</a>
+                </div>
+            </form>
+
+            <form id="registerForm" class="auth-form" style="display: none;">
+                <h2>Register</h2>
+                <div class="form-group">
+                    <label for="registerUsername">Username</label>
+                    <input type="text" id="registerUsername" required>
+                    <div class="error" id="registerUsernameError">Username must be at least 3 characters</div>
+                </div>
+                <div class="form-group">
+                    <label for="registerEmail">Email</label>
+                    <input type="email" id="registerEmail" required>
+                    <div class="error" id="registerEmailError">Please enter a valid email address</div>
+                </div>
+                <div class="form-group">
+                    <label for="registerPassword">Password</label>
+                    <input type="password" id="registerPassword" required>
+                    <div class="error" id="registerPasswordError">Password must be at least 6 characters</div>
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" required>
+                    <div class="error" id="confirmPasswordError">Passwords do not match</div>
+                </div>
+                <button type="submit" class="submit-btn">Register</button>
+                <div class="toggle-form">
+                    <a href="#" id="showLogin">Already have an account? Login</a>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    
+    <footer>
+  <p>© <span id="current-year"></span> F1 Fan Hub - All rights reserved</p>
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+    <script src="script/login.js"></script>
+</body>
+</html>
+</body>
+</html>

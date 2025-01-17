@@ -14,9 +14,73 @@ body {
 header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background: #e00400;
   color: white;
   padding: 1rem;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.login-button {
+  background: white;
+  color: #e00400;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.login-button:hover {
+  background: #f0f0f0;
+}
+
+.username-display {
+  background: white;
+  color: #e00400;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.username-display:hover {
+  background: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+.username-display::after {
+  content: "▾";
+  margin-left: 6px;
+  font-size: 0.8em;
+}
+
+.username-display::before {
+  content: "Click to logout";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+}
+
+.username-display:hover::before {
+  opacity: 1;
 }
 
 main {
@@ -64,7 +128,7 @@ header .logo {
 
 .quiz-header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   margin-bottom: 2rem;
   padding: 1rem;
   border-bottom: 2px solid #f0f0f0;
@@ -81,6 +145,21 @@ header .logo {
 }
 
 #score-display {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#highscore-container {
+  background: linear-gradient(135deg, #333, #666);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#highscore-display {
   font-size: 1.2rem;
   font-weight: bold;
 }
@@ -268,6 +347,15 @@ header .logo {
 
   .quiz {
     padding: 1rem 0.5rem;
+  }
+
+  .header-content {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .login-button {
+    margin-top: 1rem;
   }
 }
 

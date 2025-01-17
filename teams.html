@@ -9,22 +9,25 @@
 </head>
 <body>
   <header>
-    <a href="index.html">
-      <img src="images/f1_logo.png" alt="F1 Logo" class="logo">
-    </a>
-    <nav>
-      <ul class="menu">
-        <li class="dropdown">
-          <a href="#">Explore</a>
-          <ul class="dropdown-menu">
-            <li><a href="teams.html">Teams & Drivers</a></li>
-            <li><a href="circuits.html">Circuits</a></li>
-          </ul>
-        </li>
-        <li><a href="stats.html">Stats</a></li>
-        <li><a href="quiz.html">Quiz</a></li>
-      </ul>
-    </nav>
+    <div class="header-content">
+      <a href="index.html">
+        <img src="images/f1_logo.png" alt="F1 Logo" class="logo">
+      </a>
+      <nav>
+        <ul class="menu">
+          <li class="dropdown">
+            <a href="#">Explore</a>
+            <ul class="dropdown-menu">
+              <li><a href="teams.html">Teams & Drivers</a></li>
+              <li><a href="circuits.html">Circuits</a></li>
+            </ul>
+          </li>
+          <li><a href="stats.html">Stats</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+      </nav>
+    </div>
+    <a href="login.html" class="login-button">Login / Register</a>
   </header>
   <main>
     <section class="general-info">
@@ -41,8 +44,12 @@
       </div>
     </section>
   </main>
-  <footer>
-    <p>© 2024 F1 Fan Hub - All rights reserved</p>
-  </footer>
+    <footer>
+  <p>© <span id="current-year"></span> F1 Fan Hub - All rights reserved</p>
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+  <script src="script/teams.js"></script>
+  <script src="script/index.js"></script>
 </body>
 </html>
